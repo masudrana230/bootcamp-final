@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+p {
+    color: #b8aeae;
+}
+
+.tp {
+    background: rgb(13, 209, 235);;
+    padding: 10px;
+
+
+}
+
+.top-head .icon p {
+    color: white !important;
+}
+
+.top-right {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+
+}
+
+.top-right .icons p {
+    color: white !important;
+}
+
+.top-right .mail p {
+    color: white !important;
+
+}
+
+
+.top-right .icons p i {
+    margin-right: 10px;
+}
+
+.icon p i {
+    margin-right: 10px;
+}
+
+.top-right .mail p i {
+    margin-right: 10px;
+}
+
+header {
+    margin-bottom: 70px;
+}
+
+/* banner section css start */
+
+.banner-section {
+    width: 100%;
+    padding: 80px 0;
+}
+
+.banner-section .btns a{
+    border-radius: 0 !important;
+    border-color: rgb(35, 157, 228);
+}
+.banner-section .content {
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.banner-section .content h1 {
+
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.banner-section .content p {
+    font-size: 30px;
+}
+
+.banner-section .content .btns .btn {
+    background: rgb(13, 209, 235);
+}
+
+
+/* feature section css start */
+
+.feature-secton {
+    width: 100%;
+    padding: 80px 0;
+    background: #fcfafa;
+}
+
+.feature-secton .content h1 {
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.feature-secton .fe {
+    margin-top: 70px;
+    border: 1px solid #ebe3e3;
+    padding: 30px 20px;
+}
+
+.feature-secton .fe h2 {
+    margin-top: 30px;
+}
+
+.feature-secton .fes {
+    border: 1px solid #ebe3e3;
+    padding: 30px 20px;
+}
+
+.feature-secton .fe p {
+    margin-top: 25px;
+}
+
+.feature-secton .fes h2 {
+    margin-top: 25px;
+}
+
+/* service section css start */
+.service-section {
+    width: 100%;
+    padding: 80px 0;
+    background: #f7f2f2;
+}
+
+.service-section .underline {
+    width: 11%;
+    background: rgb(129, 129, 129);
+    height: 2px;
+    margin: 0 auto;
+
+}
+
+.service-section .ser {
+    text-align: center;
+}
+
+.service-section .ser h2 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.service-section .ser p {
+    margin-top: 15px;
+}
+
+.service-section .serv {
+    padding: 40px 0;
+}
+
+.service-section .serv h3 {
+    margin: 20px 0px;
+}
+
+/* about section css start */
+
+.about-section {
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.about-section .abletf h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-section .abletf p {
+    margin-bottom: 20px;
+}
+
+.about-section .abletf .btns a {
+    background: rgb(13, 209, 235);
+    font-weight: bold;
+    font-size: 15px;
+    border-color: rgb(13, 209, 235);
+    border-radius: 0;
+}
+
+.about-section .abletf .btns {
+    border-radius: 0 !important;
+}
+
+/* testimonial section start */
+
+.testimonial-section {
+    width: 100%;
+    padding: 80px 0px;
+    background: #fcfafa;
+}
+
+.testimonial-section .content p {
+    margin-bottom: 40px;
+}
+
+.testimonial-section .content .underline {
+    width: 11%;
+    background: rgb(129, 129, 129);
+    height: 2px;
+    margin: 20px 0;
+
+}
+
+.testimonial-section .test {
+    display: flex;
+}
+
+.testimonial-section .pic {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.testimonial-section .test .test-left {
+    margin-right: 20px;
+}
+
+.testimonial-section .test .test-right h3 {
+    margin: 10px 0;
+}
+
+/* contact-section start */
+.contact-section {
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.contact-section .addre h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-section .addre .loc p i {
+    margin-right: 15px;
+    color: rgb(13, 209, 235);
+}
+
+.ad2 {
+    margin-top: 40px;
+}
+
+form .form-inner {
+    padding: 50px 20px;
+}
+
+.form-inner input {
+    padding: 10px 8px;
+    width: 100%;
+    margin-bottom: 20px;
+    background: transparent;
+    border: 1px solid #beb8b8;
+}
+
+.form-inner textarea {
+    padding: 50px 8px;
+    width: 100%;
+    margin-bottom: 20px;
+    background: transparent;
+    border: 1px solid #beb8b8;
+
+}
+
+form .form-inner .btns a {
+    background: rgb(13, 209, 235);
+    font-weight: bold;
+    font-size: 15px;
+    border-color: rgb(13, 209, 235);
+    padding: 7px 25px;
+    border-radius: 0;
+}
+
+/* call to action-section start */
+.call-to-action-section {
+    width: 100%;
+    padding: 45px 0px;
+    background: #f8f6f6;
+}
+
+
+.call-to-action-section .right-side .mail {
+    padding: 30px 0px;
+}
+
+.call-to-action-section .right-side .mail input {
+    padding: 15px 290px 10px 0px;
+}
+
+.call-to-action-section .mail button {
+    background: rgb(13, 209, 235);
+    padding: 14px 50px;
+    border-radius: 0px;
+    color: #f8f6f6;
+    margin-top: -8px;
+    margin-left: 0px;
+}
+
+footer {
+    width: 100%;
+    padding: 80px 0;
+    background: #352f2f;
+}
+
+footer .col1 {
+    display: flex;
+}
+
+footer .col1 .im {}
+
+footer .col1 .fr h3 {
+    color: rgb(7, 235, 243);
+    text-transform: uppercase;
+    margin: -20px 15px;
+    margin: 2px 5px;
+}
+
+footer .col1 .fr p {
+    color: rgb(247, 241, 241) !important;
+    margin: -2px 5px;
+}
+
+footer .ico {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(202, 194, 194);
+    font-size: 30px;
+
+}
+
+.fp p {
+    margin: 30px 0px;
+}
+
+footer .col2 .h4 {
+    color: rgb(247, 241, 241) !important;
+    margin-bottom: 20px;
+
+}
+
+.col2 .boder-b {
+    border-bottom: 1px solid #6d6666;
+}
+
+
+footer .ul ul {
+    color: rgb(247, 241, 241);
+    padding: 20px 0px;
+}
+
+footer .ul ul li {
+    margin: 10px 10px;
+}
+
+.col3 .h4 h4 {
+    color: rgb(247, 241, 241);
+    margin-bottom: 20px;
+
+}
+
+.col3 .boder-bb {
+    border-bottom: 1px solid #6d6666;
+}
+
+.footer-list {
+    display: flex;
+    color: #ebe3e3;
+    padding: 20px 10px;
+    line-height: 25px;
+}
+
+.footer-list .onelist {
+    margin-right: 50px;
+}
+
+.col4 .h4 h4 {
+    color: rgb(247, 241, 241);
+    margin-bottom: 20px;
+}
+
+.col4 .boder-bt {
+    border-bottom: 1px solid #6d6666;
+}
+
+.col4 .footer-icon {
+    margin-top: 30px;
+}
+
+.col4 .footer-icon i {
+    margin-right: 15px;
+    color: rgb(7, 235, 243);
+    font-size: 20px;
+}
+
+.col4 .footer-icon p {
+    color: rgb(247, 241, 241) !important;
+}
+
+.copyright-section {
+    width: 100%;
+    padding: 20px 0;
+    background: rgb(5, 216, 216);
+}
+
+.copyright-section .text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.copyright-section .text p {
+    color: white;
+}
